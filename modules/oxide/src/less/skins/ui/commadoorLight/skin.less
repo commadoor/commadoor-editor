@@ -1,0 +1,45 @@
+@import '../../../theme/theme';
+
+// Commadoor Theme
+@color-primary: #772277;
+@color-secondary: #297663;
+@color-accent: #15aec1;
+@color-neutral: #4f4f40;
+@color-base100: #f5f4f2;
+@color-content: #121212;
+@color-info: #297663;
+@color-success: #96aa1a;
+@color-warning: #f09f02;
+@color-error: #e0234c;
+@color-tint: @color-secondary;
+//
+// Place your variables here
+//
+
+@background-color: @color-base100;
+@color-secondary: @color-neutral;
+@tooltip-background-color: @color-secondary;
+
+@keyboard-focus-outline-color: @color-content;
+
+@editor-header-border: 1px solid @color-secondary;
+@editor-header-box-shadow: none;
+@editor-header-sticky-box-shadow: @editor-header-box-shadow;
+@editor-bottom-header-box-shadow: @editor-header-box-shadow;
+@editor-bottom-header-sticky-box-shadow: @editor-header-box-shadow;
+
+@menu-border-color: @color-secondary;
+@menu-box-shadow: none;
+
+@insert-table-picker-border-color: @color-secondary;
+
+@dialog-body-link-color: lighten(@color-secondary, 25%);
+@dialog-body-link-hover-color: lighten(@dialog-body-link-color, 20%);
+@dialog-body-link-active-color: lighten(@dialog-body-link-color, 30%);
+@dialog-body-link-focus-outline-color: @dialog-body-link-color;
+
+.tox.tox-tinymce-aux .tox-toolbar__overflow {
+  box-shadow: 0 0 0 1px @color-secondary;
+}
+
+@edit-area-border-color: #FFFFFF00;
